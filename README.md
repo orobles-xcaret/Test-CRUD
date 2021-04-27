@@ -2,49 +2,23 @@
 
 Ejercicio de evaluación
 
-El objetivo del ejercicio es crear un conjunto de aplicaciones (un front y un back con conexion a base de datos) para administrar "Mi musica".
+El objetivo es crear una aplicación que maneje la lógica para permitir que el usuario inicie sesión y vea la vista principal cada vez que inicie la aplicación.
 
 Requerimientos
 
-Backend:
-
-* Puede utilizar la tecnologia/framework/lenguaje que desee, puntos extra por usar Groovy/Grails.
-* Puede utilizar EntityFramework o generar su propia capa de acceso de datos, como se desee.
-* Debe conectarse a una base de datos para almacenar la información (puede utilizar el motor de base de datos que desee)
-* Cada modelo debe tener su controlador CRUD, debe responder a sus correspondientes GET, GET(id), POST, PUT, DELETE.
-
-Frontend:
-
 * Utilizar ReactJs desde Visual Studio Code como IDE
-* Cada modelo debe tener su vista de listado con funciones o accesos para agregar nuevo, editar y eliminar
-* Cada modelo debe tener su vista de formulario de datos donde se registra y/o edita información
-* La aplicación debera tener una vista inicial con un menu para navegar a las otras vistas.
-* Cada modelo debe tener un servicio para consumir sus correspondientes CRUD de el Back.
+* Utilizar Axios como libreria para consumo de web apis
 
 Historias de usuario:
 
-* El usuario debera tener la facultad de enlistar, dar de alta, editar y eliminar albumes y canciones.
-* El usuario debera tener la facultad de enlistar sus playlist.
-* El usuario debera tener la facultad de agregar y remover canciones de la playlist que desee.
+* El usuario debe autenticarse con correo electrónico y contraseña (puede usar datos estáticos para validar lo que el usuario escribe en el formulario)
+* El usuario deberá poder cerrar sesión.
+* El usuario deberá poder ver una lista de Pokemones (Vista principal)
+* La sesión del usuario deberá almacenarse localmente.
+* El usuario deberá poder ver la vista principal si ha iniciado sesión.
+* El usuario podrá ver algún detalle del Pokémon.(No necesario)
 
-Modelos:
-    Album
-- Id [Int]
-- Nombre [String]
-- Artista [String]
-- Status [Boolean]
-
-   Cancion
-- Id [Int]
-- Nombre [String]
-- Duración [String]
-- Status [Boolean]
-   
-   Playlist
-- Id [Int]
-- Nombre [String]
-
-
-Nota: Tomese solo como manejo de datos, no se va a almacenar ningun archivo de audio.
+Tip:
+* Pokemon API Docs. https://pokeapi.co/docs/v2 Considerar que tiene un límite de peticiones
 
 Nota: Debe subir las pruebas a la plataforma que desees; puedes usar Bitbucket, Gitlab, Github o cualquier plataforma de control de versiones. Debe de estar público y que nosotros tengamos acceso para poder evaluarlas.
