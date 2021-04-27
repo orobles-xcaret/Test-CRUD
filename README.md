@@ -27,17 +27,19 @@ Historias de usuario:
 * El usuario debera tener la facultad de agregar y remover canciones de la playlist que desee.
 
 Modelos:
-Album
+    Album
 - Id [Int]
 - Nombre [String]
 - Artista [String]
 - Status [Boolean]
-Cancion
+
+   Cancion
 - Id [Int]
 - Nombre [String]
 - Duración [String]
 - Status [Boolean]
-Playlist
+   
+   Playlist
 - Id [Int]
 - Nombre [String]
 
