@@ -9,6 +9,7 @@ Requerimientos
 Backend:
 
 * Puede utilizar la tecnologia/framework/lenguaje que desee, puntos extra por usar Groovy/Grails.
+* Puede utilizar EntityFramework o generar su propia capa de acceso de datos, como se desee.
 * Debe conectarse a una base de datos para almacenar la información (puede utilizar el motor de base de datos que desee)
 * Cada modelo debe tener su controlador CRUD, debe responder a sus correspondientes GET, GET(id), POST, PUT, DELETE.
 
