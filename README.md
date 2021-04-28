@@ -12,11 +12,11 @@ Requerimientos
 Historias de usuario:
 
 * El usuario debe autenticarse con correo electrónico y contraseña (puede usar datos estáticos para validar lo que el usuario escribe en el formulario)
+* La sesión del usuario deberá almacenarse localmente.
 * El usuario deberá poder cerrar sesión.
 * El usuario deberá poder ver una lista de Pokemones (Vista principal)
-* La sesión del usuario deberá almacenarse localmente.
 * El usuario deberá poder ver la vista principal si ha iniciado sesión.
-* El usuario podrá ver algún detalle del Pokémon.(No necesario)
+* El usuario podrá ver algún detalle del Pokémon
 
 Tip:
 * Pokemon API Docs. https://pokeapi.co/docs/v2 Considerar que tiene un límite de peticiones
